@@ -1,0 +1,11 @@
+# BRACOL REVIEWED（专家复核密集标注版）— 主实验数据集
+# 4 类咖啡叶病害/虫害目标检测
+# 数据集需下载后解压到 data/BRACOL_REVIEWED/，结构如下：
+#   data/BRACOL_REVIEWED/{train,valid,test}/images 与 {train,valid,test}/labels
+path: data/BRACOL_REVIEWED
+train: train/images
+val: valid/images
+test: test/images
+
+nc: 4
+names: ['Cercospora', 'Miner', 'Phoma', 'Rust']

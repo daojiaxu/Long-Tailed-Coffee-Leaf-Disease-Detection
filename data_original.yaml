@@ -1,0 +1,10 @@
+# BRACOL ORIGINAL（原始稀疏标注版）— 用于标注质量对比实验
+# 4 类咖啡叶病害/虫害目标检测
+# 数据集需下载后解压到 data/BRACOL_ORIGINAL/，结构同 data_reviewed.yaml
+path: data/BRACOL_ORIGINAL
+train: train/images
+val: valid/images
+test: test/images
+
+nc: 4
+names: ['Cercospora', 'Miner', 'Phoma', 'Rust']
