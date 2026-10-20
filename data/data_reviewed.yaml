@@ -1,0 +1,11 @@
+# BRACOL REVIEWED (expert-reviewed, densely annotated split) - primary experiment dataset
+# 4-class coffee leaf disease/pest object detection
+# After downloading the dataset, extract it to data/BRACOL_REVIEWED/ with structure:
+#   data/BRACOL_REVIEWED/{train,valid,test}/images and {train,valid,test}/labels
+path: data/BRACOL_REVIEWED
+train: train/images
+val: valid/images
+test: test/images
+
+nc: 4
+names: ['Cercospora', 'Miner', 'Phoma', 'Rust']
